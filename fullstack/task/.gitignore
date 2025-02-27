@@ -9,7 +9,3 @@
 /node_modules
 /dist
 tsconfig.tsbuildinfo
-
-.vscode
-
-.yarn/cache/
