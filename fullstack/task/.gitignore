@@ -11,3 +11,5 @@
 tsconfig.tsbuildinfo
 
 .vscode
+
+.yarn/cache/
