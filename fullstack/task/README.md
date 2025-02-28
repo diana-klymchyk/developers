@@ -10,10 +10,10 @@ The repository provides a simple backend (`fullstack/task/packages/server`). It 
 
 Your overall goal is to implement a GraphQL query that would return a list of exchange rates for a number of currencies. The more specific requirements are as follows:
 
-- You will be working mainly in the `fullstack/task/packages/server/src/services/exchange-rate` file - the TODO comments will guide you in the right direction
-- You need to get the latest exchange rates from the website of the Czech National Bank. Finding where they are and how to get them is a part of the task
-- The exchange rates need to be cached **in the Postgres database**. Once you get them from the bank - you need to store the rates in the database. The cache should have a lifetime of 5 minutes, after which it should be invalidated and all future requests would once again get the data from the bank (and cache them again). During the cache lifetime, the rates must be read from the database.
-- The choice of technologies is mostly up to you, but you must use NestJS, GraphQL, TypeORM, and TypeScript.
+-   You will be working mainly in the `fullstack/task/packages/server/src/services/exchange-rate` file - the TODO comments will guide you in the right direction
+-   You need to get the latest exchange rates from the website of the Czech National Bank. Finding where they are and how to get them is a part of the task
+-   The exchange rates need to be cached **in the Postgres database**. Once you get them from the bank - you need to store the rates in the database. The cache should have a lifetime of 5 minutes, after which it should be invalidated and all future requests would once again get the data from the bank (and cache them again). During the cache lifetime, the rates must be read from the database.
+-   The choice of technologies is mostly up to you, but you must use NestJS, GraphQL, TypeORM, and TypeScript.
 
 The `fullstack/task/packages/server/README.md` file will help you set up the dev environment.
 
@@ -22,8 +22,9 @@ The `fullstack/task/packages/server/README.md` file will help you set up the dev
 Once the Backend Query is done, you need to create a simple web page that will display this data. You will find a skeleton web project in `fullstack/task/packages/client`.
 
 The web page needs to have the following:
-- A table that displays a list of exchange rates (country, currency, amount, code, rate)
-- A section that would display how long ago the rates were fetched (because of the cache)
+
+-   A table that displays a list of exchange rates (country, currency, amount, code, rate)
+-   A section that would display how long ago the rates were fetched (because of the cache)
 
 You must use TypeScript and React, but all other technologies are up to you.
 
