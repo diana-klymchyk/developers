@@ -1,5 +1,7 @@
 .yarn
+.yarn
 .yarn/*
+.yarn/cache
 .yarn/cache
 !.yarn/patches
 !.yarn/plugins
@@ -9,6 +11,8 @@
 
 /node_modules
 /dist
-.vscode
 tsconfig.tsbuildinfo
+
 .yarnrc.yml.backup
+.vscode
+.DS_Store
