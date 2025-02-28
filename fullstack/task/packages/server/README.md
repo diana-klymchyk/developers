@@ -24,8 +24,8 @@ Run `docker login`.
 
 ### 4. Create and start the database
 
-- If this is your first-time setup - run `yarn server db-create` (from the root workspace `fullstack/task`). This will create (and overwrite!) a docker container for the database.
-- Otherwise, run the docker container that was created during the first-time setup.
+-   If this is your first-time setup - run `yarn server db-create` (from the root workspace `fullstack/task`). This will create (and overwrite!) a docker container for the database.
+-   Otherwise, run the docker container that was created during the first-time setup.
 
 ### 5. Start the server
 
@@ -41,6 +41,6 @@ First, generate the migration. Make sure to use a descriptive name, like in a co
 yarn server migration -c generate --name migration-name
 ```
 
-This will create a file describing all the changes to the database, s.t. it can be replicated or reverted easily. 
+This will create a file describing all the changes to the database, s.t. it can be replicated or reverted easily.
 
 All pending migrations are ran automatically when the server starts.

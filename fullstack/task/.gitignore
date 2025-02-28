@@ -1,5 +1,6 @@
+.yarn
 .yarn/*
-!.yarn/cache
+.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
@@ -8,4 +9,6 @@
 
 /node_modules
 /dist
+.vscode
 tsconfig.tsbuildinfo
+.yarnrc.yml.backup
